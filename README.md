@@ -22,3 +22,5 @@ kube-subnet-mgr:使用Kubernetes API申请子网信息，而不是使用etcd或�
 
 ## flannel client模式
 前文提到的flannel获取子网信息的三个途径：1.flannel server;2.kubernetes API；3.etcd;
+
+flannel bug:(n.tun, tunName, err = ip.OpenTun("flannel%d") ) 文件：udp/network.go
